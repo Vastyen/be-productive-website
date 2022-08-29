@@ -47,11 +47,10 @@ font-family: 'Roboto Mono', monospace;
     display: inline-block;
     border: 3px solid #25292F;
 font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.5em;
     text-align: center;
     text-decoration: none;
-    color: #25292F;
+    color: #3f4349;
     overflow: hidden;
         border-radius: 300px;
 }
@@ -69,7 +68,7 @@ font-family: 'Roboto Mono', monospace;
     }
 
     .face-primary {
-        background-color: #25292F;
+        background-color: #3b4047;
         color: #fff;
     }
 

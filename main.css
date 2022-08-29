@@ -25,6 +25,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    
 }
 
 
@@ -45,6 +46,7 @@
     text-decoration: none;
     color: #25292F;
     overflow: hidden;
+        border-radius: 300px;
 }
     .icon {
         margin-right: 6px;
@@ -73,8 +75,6 @@
             margin-right: 6px;
             color: #25292F;
         }
-
-
 
 .container {
     margin-top: 10vh;

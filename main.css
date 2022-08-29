@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+*{
+    margin: 0;
+    color: #25292F;
+}
+
+.beproductive{
+    position: relative;
+    top: 30vh;
+    padding: 2vh;
+}
+.text{
+    font-size: 3.5em;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.download{
+    display: flex;
+    margin-top: 40vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@import url('//fonts.googleapis.com/css?family=Roboto:500');
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+.face-button {
+    height: 64px;
+    display: inline-block;
+    border: 3px solid #25292F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #25292F;
+    overflow: hidden;
+}
+    .icon {
+        margin-right: 6px;
+        color: #fff;
+    }
+
+    .face-primary,
+    .face-secondary {
+        display: block;
+        padding: 0 32px;
+        line-height: 64px;
+        transition: margin .2s;
+    }
+
+    .face-primary {
+        background-color: #25292F;
+        color: #fff;
+    }
+
+    a:hover .face-primary {
+        margin-top: -64px;
+
+    }
+    
+        a:hover .icon {
+            margin-right: 6px;
+            color: #25292F;
+        }
+
+
+
+.container {
+    margin-top: 10vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+
+.arrow{
+    width: 0;
+    height: 40px;
+    border: 1px solid #333;
+    position: relative;
+    animation: scroll 1.5s infinite;
+    -webkit-animation: scroll 1.5s infinite;
+}
+
+        .arrow:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: -5px;
+            width: 1px;
+            height: 10px;
+            border-top: 10px solid #333;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+        }
+@keyframes scroll {
+    0% {
+        height: 40px;
+    }
+
+    30% {
+        height: 70px;
+    }
+
+    60% {
+        height: 40px;
+    }
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        height: 40px;
+    }
+
+    30% {
+        height: 70px;
+    }
+
+    60% {
+        height: 40px;
+    }
+}

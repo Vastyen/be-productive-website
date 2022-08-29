@@ -8,8 +8,8 @@
 
 .beproductive{
     position: relative;
-    top: 30vh;
-    padding: 2vh;
+    top: 23vh;
+    
 }
 .text{
     font-size: 3.5em;
@@ -38,6 +38,7 @@ font-family: 'Roboto Mono', monospace;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-bottom: 2vh;
     
 }
 
@@ -46,19 +47,15 @@ font-family: 'Roboto Mono', monospace;
 .face-button {
     height: 64px;
     display: inline-block;
-    border: 3px solid #25292F;
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.3em;
     text-align: center;
+    background-color: rgb(211, 205, 205);
     text-decoration: none;
-    color: #3f4349;
     overflow: hidden;
-        border-radius: 300px;
+    border-radius: 300px;
 }
-    .icon {
-        margin-right: 6px;
-        color: #fff;
-    }
+
 
     .face-primary,
     .face-secondary {
@@ -69,19 +66,17 @@ font-family: 'Roboto Mono', monospace;
     }
 
     .face-primary {
-        background-color: #3b4047;
+        background-color: #25292F;
         color: #fff;
     }
 
     a:hover .face-primary {
         margin-top: -64px;
 
+
     }
     
-        a:hover .icon {
-            margin-right: 6px;
-            color: #25292F;
-        }
+
 
 .container {
     margin-top: 10vh;

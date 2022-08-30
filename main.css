@@ -1,14 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@445&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 *{
-    margin: 0;
-    color: #25292F;
+    margin: 0; 
+    color: white; 
+    overflow-x: hidden;
+}
+
+#software{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+}
+
+#form{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+}
+
+
+canvas{
+    position: fixed;
 }
 
 .beproductive{
     position: relative;
-    top: 23vh;
+    top: 20vh;
     
 }
 .text{
@@ -21,10 +39,11 @@
 }
 
 .subtext{
+    position: relative;
         font-size: 1em;
         display: block;
         color: rgb(144, 144, 144);
-font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto Mono', monospace;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -38,7 +57,9 @@ font-family: 'Roboto Mono', monospace;
     justify-content: center;
     text-align: center;
     align-items: center;
+    position: relative;
     margin-bottom: 2vh;
+    z-index: 100;
     
 }
 
@@ -50,7 +71,7 @@ font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.3em;
     text-align: center;
-    background-color: rgb(211, 205, 205);
+    background-color: rgb(71, 71, 71);
     text-decoration: none;
     overflow: hidden;
     border-radius: 300px;
@@ -66,8 +87,8 @@ font-family: 'Roboto Mono', monospace;
     }
 
     .face-primary {
-        background-color: #25292F;
-        color: #fff;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
     }
 
     a:hover .face-primary {
@@ -98,7 +119,7 @@ font-family: 'Roboto Mono', monospace;
 .arrow{
     width: 0;
     height: 40px;
-    border: 1px solid #333;
+    border: 1px solid rgb(255, 255, 255);
     position: relative;
     animation: scroll 1.5s infinite;
     -webkit-animation: scroll 1.5s infinite;
@@ -112,7 +133,7 @@ font-family: 'Roboto Mono', monospace;
             left: -5px;
             width: 1px;
             height: 10px;
-            border-top: 10px solid #333;
+            border-top: 10px solid rgb(255, 255, 255);
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
         }

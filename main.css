@@ -39,7 +39,7 @@ canvas{
 
 .beproductive{
     position: relative;
-    top: 10vh;
+    top: 5vh;
     padding: 3vh;
     
 }
@@ -67,7 +67,7 @@ canvas{
 
 .download{
     display: flex;
-    margin-top: 22vh;
+    margin-top: 20vh;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -319,7 +319,18 @@ span {
     }
 
     #talk{
-        margin-top: 110vh;
+        margin-top: 90vh;
+    }
+
+
+    #software{
+        height: 200vh;
+    }
+    #software .subtext{
+        width: 90vw;
+    }
+    #software .text{
+        font-size: 2em;
     }
 
 }

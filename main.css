@@ -7,6 +7,27 @@
     overflow-x: hidden;
 }
 
+#footer{
+    left: 0;
+    bottom: 0;
+    opacity: 0.8;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center; 
+    padding: 0.5vh;
+}
+
+.footerText{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1em;
+   
+    color: white;
+}
+
 #software{
     width: 100vw;
     height: 100vh;

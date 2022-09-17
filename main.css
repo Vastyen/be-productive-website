@@ -361,29 +361,18 @@ span {
 .face-button {
     height: 10vh;
     width: 25vh;
-    display: inline-block;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.3em;
-    text-align: center;
-    background-color: rgb(71, 71, 71);
-    text-decoration: none;
-    overflow: hidden;
-    border-radius: 300px;
+
 }
 
 
    .face-primary,
    .face-secondary {
-       display: block;
-       padding: 0 32px;
+
        line-height: 10vh;
-       transition: margin .2s;
+
    }
 
-   .face-primary {
-       background-color: #ffffff;
-       color: rgb(0, 0, 0);
-   }
+
 
    a:hover .face-primary {
        margin-top: -10vh;

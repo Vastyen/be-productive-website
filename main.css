@@ -5,6 +5,9 @@
     margin: 0; 
     color: white; 
     overflow-x: hidden;
+        scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
 }
 #footer{
     left: 0;
@@ -17,8 +20,10 @@
     text-align: center; 
     padding: 0.5vh;
     padding-bottom: 0;
-
 }
+
+
+
 .footerText{
     justify-content: center;
     align-items: center;
@@ -45,7 +50,7 @@
 }
 #talk{
     background-color: rgb(23, 23, 23);
-    margin-top: 55vh;
+    padding-top: 490px;
 }
 canvas{
     position: fixed;
@@ -303,7 +308,7 @@ span {
         z-index: 100;
     }
     #talk{
-        padding-top: 45vh;
+        padding-top: 700px;
     }
 .face-button {
     height: 10vh;

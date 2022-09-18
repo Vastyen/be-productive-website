@@ -6,7 +6,6 @@
     color: white; 
     overflow-x: hidden;
 }
-
 #footer{
     left: 0;
     bottom: 0;
@@ -20,7 +19,6 @@
     padding-bottom: 0;
 
 }
-
 .footerText{
     justify-content: center;
     align-items: center;
@@ -29,7 +27,6 @@
     color: white;
         bottom: 0;
 }
-
 #software{
     width: 100vw;
     height: 100vh;
@@ -46,26 +43,18 @@
     margin: 0 auto;
     font-size: 1.3em;
 }
-
-
-
 #talk{
     background-color: rgb(23, 23, 23);
     margin-top: 55vh;
 }
-
-
-
 canvas{
     position: fixed;
     -webkit-filter: blur(1px);
 }
-
 .beproductive{
     position: relative;
     top: 5vh;
     padding: 3vh;
-    
 }
 .text{
     font-size: 3.5em;
@@ -75,7 +64,6 @@ canvas{
     text-align: center;
     align-items: center;
 }
-
 .subtext{
     position: relative;
         font-size: 1.3em;
@@ -87,8 +75,6 @@ canvas{
         align-items: center;
         padding: 1px;
         }
-
-
 .download{
     display: flex;
     margin-top: 20vh;
@@ -100,9 +86,6 @@ canvas{
     z-index: 100;
     
 }
-
-
-
 .face-button {
     height: 64px;
     display: inline-block;
@@ -114,8 +97,6 @@ canvas{
     overflow: hidden;
     border-radius: 300px;
 }
-
-
     .face-primary,
     .face-secondary {
         display: block;
@@ -123,20 +104,13 @@ canvas{
         line-height: 64px;
         transition: margin .2s;
     }
-
     .face-primary {
         background-color: #ffffff;
         color: rgb(0, 0, 0);
     }
-
     a:hover .face-primary {
         margin-top: -64px;
-
-
     }
-    
-
-
 .container {
     margin-top: 10vh;
     width: 100%;
@@ -145,15 +119,12 @@ canvas{
     align-items: center;
     justify-content: center;
 }
-
 .field {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 300px;
 }
-
-
 .arrow{
     width: 0;
     height: 40px;
@@ -162,7 +133,6 @@ canvas{
     animation: scroll 1.5s infinite;
     -webkit-animation: scroll 1.5s infinite;
 }
-
         .arrow:after {
             content: '';
             display: block;
@@ -179,16 +149,13 @@ canvas{
     0% {
         height: 40px;
     }
-
     30% {
         height: 70px;
     }
-
     60% {
         height: 40px;
     }
 }
-
 @-webkit-keyframes scroll {
     0% {
         height: 40px;
@@ -202,8 +169,6 @@ canvas{
         height: 40px;
     }
 }
-
-
 #talk {
     width: 100vw;
     height: 100vh;
@@ -211,7 +176,6 @@ canvas{
     justify-content: center;
     align-items: center;
 }
-
 .form {
     font-family: 'Roboto Mono', monospace;
     width: 50vw;
@@ -225,7 +189,6 @@ canvas{
     box-sizing: border-box;
     position: relative;
 }
-
 textarea {
     width: 100%;
     padding: 2vh;
@@ -239,7 +202,6 @@ textarea {
     transition: all .3s;
     border-bottom: 2px solid #bebed2;
 }
-
 input {
     width: 100%;
     padding: 1vh;
@@ -252,12 +214,9 @@ input {
     transition: all .3s;
     border-bottom: 2px solid #bebed2
 }
-
-
 input:focus {
     border-bottom: 2px solid #78788c
 }
-
 p:before {
     content: attr(type);
     display: block;
@@ -265,7 +224,6 @@ p:before {
     font-size: 14px;
     color: black;
 }
-
 button {
     float: right;
     margin: 2vh;
@@ -275,30 +233,24 @@ button {
     color: rgb(48, 48, 48);
     cursor: pointer;
     transition: all .3s;
-            font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 2.5vh;
 }
-
 button:hover {
     color: rgb(179, 174, 174);
-
 }
-
 span {
     margin: 0 5px 0 15px
 }
-
 .form-control {
     position: relative;
     margin: 20px 0 40px;
 }
-
 .form-control input {
     background-color: transparent;
     display: block;
     width: 100%;
     margin-top: 30px;
-    ;
     font-size: 13px;
     color: black;
 }
@@ -340,54 +292,34 @@ span {
         margin: 0;
         width: 80vw;
     }
-
-        .download {
-            display: flex;
-            margin-top: 5vh;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            position: relative;
-            margin-bottom: 1vh;
-            z-index: 100;
-    
-        }
-
+    .download {
+        display: flex;
+        margin-top: 5vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 1vh;
+        z-index: 100;
+    }
     #talk{
-
         padding-top: 45vh;
     }
-
 .face-button {
     height: 10vh;
     width: 25vh;
-
-}
-
-
+    }
    .face-primary,
    .face-secondary {
-
        line-height: 10vh;
-
    }
-
-
-
    a:hover .face-primary {
        margin-top: -10vh;
-
-
    }
-
-
     #software .subtext{
         width: 90vw;
     }
     #software .text{
         font-size: 2em;
     }
-
-
-
 }

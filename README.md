@@ -12,7 +12,7 @@ Please make sure to update tests as appropriate.
 
 Bastián Escribano & Daniel Catalán.                            
 
-We did this software with academic purposes.             
+We did this software with academics purposes.             
      
 
 ## License
